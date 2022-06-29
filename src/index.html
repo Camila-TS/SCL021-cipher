@@ -7,21 +7,29 @@
   </head>
   <body>
     <main>
-     <header>Cifra tus Mensajes</header>
+     <header>Cifra tus Mensajes</header><br>
      <div id="root">
       <section>
-        <heading>Escribe un número del 1-50 para configurar tu cifrado</heading>
-      </section>
+        <heading>Escribe un número del 1-50 para configurar tu cifrado:</heading><br>
+        <input type="Text" name="Número" id="número">
+        <button id="aplicar">Aplicar</button>
+      </section><br>
        
       <section>
-        <heading>Escribe lo que quieres cifrar</heading>
-
-      </section>
+        <heading>Escribe lo que quieres cifrar</heading><br>
+        <input type="Text" name="Texto1" id="texto1">
+        <button id="cifrar">Cifrar</button>
+        <p>Debe ser en MAYÚSCULAS. No se admite la letra Ñ.</p><br>
+        <p>Mensaje Cifrado:</p>
+      </section><br>
        
       <section>
-        <heading>Escribe lo que quieras descifrar</heading>
-
-      </section>
+        <heading>Escribe lo que quieras descifrar</heading><br>
+        <input type="Text" name="Texto2" id="texto2">
+        <button id="descifrar">Descifrar</button>
+        <p>Debe ser en MAYÚSCULAS. No se admite la letra Ñ.</p><br>
+        <p>Mensaje Descifrado:</p>
+      </section><br>
        
      </div>
      <script src="index.js" type="module"></script>
