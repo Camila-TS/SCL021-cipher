@@ -7,7 +7,7 @@
   </head>
   <body>
     <main>
-     <header>Cifra tus Mensajes</header><br>
+     <header>Cifra tus Mensajes!</header><br>
      <div id="root">
       <section>
         <heading>Escribe un número del 1-50 para configurar tu cifrado:</heading><br>
@@ -16,21 +16,25 @@
       </section><br>
        
       <section>
-        <heading>Escribe lo que quieres cifrar</heading><br>
+        <heading>Escribe lo que quieres <strong>cifrar</strong>:</heading><br>
         <input type="Text" name="Texto1" id="texto1">
         <button id="cifrar">Cifrar</button>
-        <p>Debe ser en MAYÚSCULAS. No se admite la letra Ñ.</p><br>
+        <p>Deben ser solo letras en <strong>mayúscula</strong>. No se admite la letra Ñ.</p>
         <p>Mensaje Cifrado:</p>
+        <input type="Text" name="Cifrado" id="cifrado">
       </section><br>
        
       <section>
-        <heading>Escribe lo que quieras descifrar</heading><br>
+        <heading>Escribe lo que quieras <strong>descifrar</strong>:</heading><br>
         <input type="Text" name="Texto2" id="texto2">
         <button id="descifrar">Descifrar</button>
-        <p>Debe ser en MAYÚSCULAS. No se admite la letra Ñ.</p><br>
+        <p>Deben ser solo letras en <strong>mayúscula</strong>. No se admite la letra Ñ.</p>
         <p>Mensaje Descifrado:</p>
+        <input type="Text" name="Descifrado" id="descifrado">
       </section><br>
        
+     <img src="img/inspector-gadget.png" alt="Inspector Gadget">
+
      </div>
      <script src="index.js" type="module"></script>
     </main>
