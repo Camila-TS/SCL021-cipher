@@ -1,8 +1,39 @@
 body {
     background-color:greenyellow;
     text-align: center;
+    font-family:'Ebrima', times serif;
 }
 
 header {
     font-weight: bold;
 }
+
+/*
+#gadget {
+    background-image: url(..img/gadget.png);
+    background-position: right top;
+}
+*/
+
+
+.image {
+    background-image: url(..img/gadget2.jpg);
+    background-position: right top;
+  }
+
+#número {
+width:2%;
+}
+
+#texto1, #texto2 {
+    line-height: 400%;
+    width: 25%;
+}
+
+#cifrado, #descifrado {
+    line-height: 400%;
+    width: 25%;
+    margin-right: 6%;
+}
+
+/* Comentario en CSS */
