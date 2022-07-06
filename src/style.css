@@ -16,7 +16,7 @@ header {
 */
 #root {
     display: inline-block;
-    width: 75%;
+    width: 82%;
 }
 
 .size {
@@ -50,17 +50,34 @@ header {
   }
 
 #número {
-width:2%;
+width:4%;
+margin-left: 10%;
 }
 
-#texto1, #texto2 {
+#texto1 {
     line-height: 400%;
     width: 25%;
+    margin-left: 10%;
 }
 
-#cifrado, #descifrado {
+#texto2 {
     line-height: 400%;
     width: 25%;
-    margin-right: 8%;
+    margin-left: 12%;
 }
 
+#cifrado {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+#descifrado {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+ .configurar {
+    margin-left: 15%;
+ }

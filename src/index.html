@@ -13,29 +13,27 @@
 
      <div id="root">
       <section>
-        <heading>Escribe un número del 1-50 para configurar tu cifrado:</heading><br>
-        <input type="Text" name="Número" id="número">
+        <heading class="configurar">Selecciona un número para configurar tu cifrado:</heading><br><br>
+        <input type="number" name="Número" id="número">
         <button id="aplicar">Aplicar</button>
       </section><br>
        
       <section>
-        <heading>Escribe lo que quieres <strong>cifrar</strong>:</heading><br>
-        <input type="Text" name="Texto1" id="texto1">
+        <heading> <strong>Cifrar</strong>:</heading><br>
+        <input type="Text" placeholder="Escribe lo que quieres cifrar" name="Texto1" id="texto1">
         <button id="cifrar">Cifrar</button>
         <!-- agregar al button onclick="modifyText();"   para usar this-->
-        <p>Deben ser solo letras en <strong>mayúscula</strong>. No se admite la letra Ñ.</p>
         <p>Mensaje Cifrado:</p>
-        <input type="Text" name="Cifrado" id="cifrado">
+        <input type="Text" name="Cifrado" id="cifrado" disabled>
       </section><br>
        
       <section>
-        <heading>Escribe lo que quieras <strong>descifrar</strong>:</heading><br>
-        <input type="Text" name="Texto2" id="texto2">
+        <heading><strong>Descifrar</strong>:</heading><br>
+        <input type="Text" placeholder="Escribe lo que quieras descifrar" name="Texto2" id="texto2">
         <button id="descifrar">Descifrar</button>
         <!--agregar al button onclick="modifyText();"-->
-        <p>Deben ser solo letras en <strong>mayúscula</strong>. No se admite la letra Ñ.</p>
         <p>Mensaje Descifrado:</p>
-        <input type="Text" name="Descifrado" id="descifrado">
+        <input type="Text" name="Descifrado" id="descifrado" disabled>
       </section><br>
      </div>
 
