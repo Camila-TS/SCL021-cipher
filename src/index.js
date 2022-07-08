@@ -2,51 +2,32 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 
-window.addEventListener("load", inicio, true);
-
 function inicio() {
    document.getElementById("texto1").addEventListener("keyup", function() {
       this.value = this.value.toUpperCase();
-   });
+   }, true);
+   document.getElementById("texto2").addEventListener("keyup", function() {
+      this.value = this.value.toUpperCase();
+   }, true);
 }
-
-document.getElementById("aplicar").addEventListener("click", Cifrar)
-let aplicar = document.getElementById('aplicar').value;
+inicio();
 
 
-function Cifrar() {
-   //texto original a cifrar
-   let text1 = document.getElementById("texto1").value;
-   //document.getElementById("texto1").value = "";
 
-   let offSet = document.getElementById("número").value;
-}
+//function configurar(offSet) {
+//document.getElementById("aplicar").addEventListener("click");
 
-function modifyText() {
-   text1
-}
-//function load (){
-
-//en este tiene que ir el texto cifrado, no permitir tipear
-let text1Done = document.getElementById("cifrado").value;
-   // text1Done.addEventListener("click", modifyText, false);
+//const offSet = document.getElementById("número").value;
 //}
-//document.addEventListener("DOMContentLoaded", load, false);
+//configurar();
+
+document.getElementById("cifrar").addEventListener("click",function(){  
+   const originalText = document.getElementById("texto1").value;
+   
+   const offSet = document.getElementById("número").value;    
+   //ahí se muestra el texto cifrado           
+   document.getElementById("cifrado").value = cipher.encode(originalText, offSet);
+},true);
 
 
-
-
-
-//textContent sino
-
-//function modifyText() {
-   // let t2 = document.getElementById("t2");
-   // t2.firstChild.nodeValue = "three";
-  //}
-
-  //function load() {
-   // let el = document.getElementById("t");
-   // el.addEventListener("click", modifyText, false);
-  //}
-
-  //document.addEventListener("DOMContentLoaded", load, false);
+   
