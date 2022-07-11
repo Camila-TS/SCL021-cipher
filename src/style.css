@@ -6,6 +6,7 @@ body {
 
 header {
     font-weight: bold;
+    margin-right: 10%;
 }
 
 /*
@@ -51,7 +52,7 @@ header {
 
 #número {
 width:4%;
-margin-left: 10%;
+margin-left: 5%;
 }
 
 #texto1 {
@@ -63,7 +64,7 @@ margin-left: 10%;
 #texto2 {
     line-height: 400%;
     width: 25%;
-    margin-left: 12%;
+    margin-left: 11%;
 }
 
 #cifrado {
@@ -79,5 +80,7 @@ margin-left: 10%;
 }
 
  .configurar {
-    margin-left: 15%;
+    margin-left: 7%;
  }
+
+ 
