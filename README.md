@@ -27,7 +27,7 @@ Y ya tendrás tu texto cifrado/descifrado
 
 ### Prototipo final
 
-![Prototipo final](/src/img/PrototipoFinal.png)
+![Prototipo final](/src/img/PrototipoFinal2.png)
 
 
 
