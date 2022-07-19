@@ -10,7 +10,7 @@ El prototipo fue diseñado pensando en que sea de fácil entendimiento y uso par
 ## ¿Cómo utilizarlo?
 
 
-- Se ingresa al sitio web 
+- Se ingresa al sitio web https://camila-ts.github.io/SCL021-cipher/
 - Se seleciona un número que se utilizará para configurar el cifrado o descifrado
 - Escribir lo que se quiera cifrar o descifrar en el cuadro correspondiente 
 - Dar clic en el botón correspondiente Cifrar/Descifrar
