@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+     <header>Cifra tus Mensajes!</header><br>
+
+     
+
+     <div id="root">
+      <section>
+        <heading class="configurar">Selecciona un número para configurar tu cifrado:</heading><br><br>
+        <input type="number" name="Número" id="número">
+        <!--<button id="aplicar">Aplicar</button>-->
+      </section><br>
+       
+      <section>
+        <heading> <strong>Cifrar</strong>:</heading><br>
+        <input type="Text" placeholder="Escribe lo que quieres cifrar" name="Texto1" id="texto1">
+        <button id="cifrar">Cifrar</button>
+        <!-- agregar al button onclick="modifyText();"   para usar this-->
+        <p>Mensaje Cifrado:</p>
+        <input type="Text" name="Cifrado" id="cifrado" disabled>
+      </section><br>
+       
+      <section>
+        <heading><strong>Descifrar</strong>:</heading><br>
+        <input type="Text" placeholder="Escribe lo que quieras descifrar" name="Texto2" id="texto2">
+        <button id="descifrar">Descifrar</button>
+        <p>Mensaje Descifrado:</p>
+        <input type="Text" name="Descifrado" id="descifrado" disabled>
+      </section><br>
+     </div>
+
+     <div class="size">
+      <div class="box image">
+      </div>
+     </div>
+    
+     
+      <!--<div id="gadget">
+      <img src="img/gadget.png" alt="Inspector Gadget">-->
+    
+
+     <script src="index.js" type="module"></script>
+    </main>
+  </body>
+</html>

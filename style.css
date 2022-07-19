@@ -1,0 +1,86 @@
+body {
+    background-color:greenyellow;
+    text-align: center;
+    font-family:'Ebrima', times serif;
+}
+
+header {
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+/*
+#gadget {
+    background-image: url(.img/gadget.png);
+    background-position: right top;
+}
+*/
+#root {
+    display: inline-block;
+    width: 82%;
+}
+
+.size {
+    
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    /*background-color: orange;*/
+    background-position: right top;
+    vertical-align: top;
+}
+
+.image {
+    
+    background-image: url("./img/gadget.png");
+    width: 100%;
+    height: 100%;
+    /*background-position: right top;*/
+    background-size: contain;
+    margin:0;
+    padding: 0; 
+    display:inline-block;
+    background-repeat: no-repeat;
+    /*vertical-align:top;*/
+    
+    
+    
+    /*z-index: 2;*/
+  }
+
+#número {
+width:4%;
+margin-left: 5%;
+}
+
+#texto1 {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 10%;
+}
+
+#texto2 {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 11%;
+}
+
+#cifrado {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+#descifrado {
+    line-height: 400%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+ .configurar {
+    margin-left: 7%;
+ }
+
+ 
